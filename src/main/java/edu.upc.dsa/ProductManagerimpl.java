@@ -84,6 +84,7 @@ public class ProductManagerimpl implements ProductManager {
             }
         }
 */
+        //ascendente
         logger.info("getProductbyPrize()");
         Collections.sort(p, new Comparator<Product>() {
             @Override
